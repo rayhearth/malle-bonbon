@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+    <meta charset="UTF-8">
+    <title>La malle a Bonbon</title>
+    <meta name="La malle a bonbon" content="site internet concernant une marque de confiserie et de bonbons fabriqués à l'ancienne pour le plaisir des papilles et des yeux">
+
+
+    <!--    FAVICON------------------------------->
+    <link rel="shortcut icon" type="image/Logo" href="img/logo-favicon.ico">
+    <link rel="icon" type="image/png" href="img/logo-favicon.png">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon-180x180.png">
+
+    <!--	JAVASCRIPT---------------------->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!--    RESPONSIVE EDGE----------------------------------------->
+    <meta content="IE=edge" http-equiv=X-UA-compatible>
+
+    <!--    RESPONSIVE---------------------------------------------->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--	FONTAWESOME---------------------------------------------->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+
+    <!--	FONTS----------------------------------------------------->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+
+    <!--        CSS------------------------------------------------------>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics ------------------->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKVBTF4VE1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-WKVBTF4VE1');
+    </script>
+</head>
+
+
+<body>
+
+
+    <!--------------------------- NAVBAR ------------------------------------->
+
+    <nav>
+        <section class="navigation">
+            <ul>
+                <li>
+                    <a href="https://www.jemma-design.fr/malle-bonbon/#confiserie" class="scrollto">
+                        <span class="icon"><i class="fas fa-candy-cane"></i></span>
+                        <span class="title">Confiserie</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.jemma-design.fr/malle-bonbon/#boutique" class="scrollto">
+                        <span class="icon"><i class="fas fa-store"></i></span>
+                        <span class="title">Boutique en ligne</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.jemma-design.fr/malle-bonbon/#contact" class="scrollto">
+                        <span class="icon"><i class="fas fa-comment"></i></span>
+                        <span class="title">Contact</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.jemma-design.fr/malle-bonbon/#" class="scrollto">
+                        <span class="icon"><i class="fas fa-user"></i></span>
+                        <span class="title">Mon Compte</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="scrollto">
+                        <span class="icon"><i class="fas fa-shopping-basket"></i></span>
+                        <span class="title">Mon panier</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.jemma-design.fr/malle-bonbon/#infos" class="scrollto">
+                        <span class="icon"><i class="fas fa-info"></i></span>
+                        <span class="title">Infos pratiques</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="toggle" onclick="toggleMenu()"></section>
+    </nav>
+
+        
+    
+   <!----------------------------- MON COMPTE ----------------------------------->
+   
+    <section class="compte center" id='compte'>
+        <img src="img/Logo.svg" alt="Logo de la confiserie à l'ancienne la malle à bonbon">
+        <div class="formulaire">
+            <div class="form">
+                <h2>Déjà membre ?</h2>
+                <div class="container">
+                    <form action="post" method="traitement.php">
+                        <input type="email" name="email" placeholder="E-mail">
+                        <input type="text" name="password" placeholder="Mot de passe">
+                        <input type="submit" value="Se connecter">
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="formulaire">
+            <div class="form">
+                <h2>Devenez membre</h2>
+                <div class="container">
+                    <form action="post" method="traitement.php">
+                        <input type="submit" value="S'inscrire">
+                        <input type="submit" value="Qui sommes nous ?">
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+
+    </section>
+    
+    
+    <!--------------------------- FOOTER --------------------------------->
+
+    <footer>
+        <div class="contenu">
+            <ul>
+                <li class="deroulant" id="service">
+                    <h4>Service Client</h4>
+                    <ul class="sous-menu">
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Conditions générales de vente</a></li>
+                        <li><a href="#">Conditions générales de vente(Musée)</a></li>
+                        <li><a href="#">Protection des données personnelles</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul>
+                <li class="deroulant" id="propos">
+                    <h4>A Propos</h4>
+                    <ul class="sous-menu">
+                        <li><a href="#">Nos boutiques</a></li>
+                        <li><a href="#">Nos bonbons</a></li>
+                        <li><a href="#">Nos marques</a></li>
+                        <li><a href="mentions-legales.html">Mentions Légales</a></li>
+                        <li><a href="#">Plan du site</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <ul>
+                <li class="deroulant" id="marque">
+                    <h4>La Marque</h4>
+                    <ul class="sous-menu">
+                        <li><a href="#">Soldes</a></li>
+                        <li><a href="#">Bonbons de Saint Valentin</a></li>
+                        <li><a href="#">Noël</a></li>
+                        <li><a href="#">Bonbons pas chers</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="reseaux">
+            <a href="https://www.instagram.com/?hl=fr"><i class="fab fa-instagram"></i></a>
+            <a href="https://fr-fr.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.pinterest.fr/"><i class="fab fa-pinterest-p"></i></a>
+        </div>
+        <div class="lien">
+            <p>Tout droit réservé, ce site est fictif. <br>Logo, Charte Graphique, Webdesign par <a href="https://www.jemma-design.fr/">Emmanuelle Jupon</a></p>
+        </div>
+    </footer>
+
+
+
+    <!----- JAVASCRIPT / JQUERY ----->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        function toggleMenu() {
+            let navigation = document.querySelector('.navigation');
+            let toggle = document.querySelector('.toggle');
+            navigation.classList.toggle('active');
+            toggle.classList.toggle('active');
+        }
+    </script>
+
+    <!--SCRIPT BURGER----------------------------------------->
+    <script src="js/menu-burger.js"></script>
+
+    <!-------------------SCROLLTOP---------------------------->
+    <a href="#" id=scrolltop><i class="fas fa-chevron-circle-up"></i></a>
+
+    <!-------------------SCROLLTO-SCROLLTOP------------------->
+    <script src="js/scrollto-scrolltop.js"></script>
+    
+    <!---------------- MENU DEROULANT ----------------------->
+    <script src="js/menu-deroulant.js"></script>
+
+</body></html>
