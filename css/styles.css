@@ -42,9 +42,11 @@ h4 {
   margin-bottom: 10px;
 }
 /*****NAVBAR*****/
+nav {
+  z-index: 10;
+}
 nav section.navigation {
   position: fixed;
-  z-index: 10;
   width: 60px;
   height: 100%;
   background: rgba(92, 169, 176, 0.7);
