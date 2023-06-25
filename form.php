@@ -26,11 +26,6 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
 
-    <!--	FONTS----------------------------------------------------->
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
-
     <!--        CSS------------------------------------------------------>
 
     <link rel="stylesheet" href="css/styles.css">

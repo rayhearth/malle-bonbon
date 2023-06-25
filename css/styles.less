@@ -6,6 +6,17 @@
 @orange: #f6ab5c;
 @purple:#431d75;
 
+/*FONT FAMILY*/
+
+@font-face {
+    font-family: 'Ebrima';
+    src: url(../fonts/ebrima.ttf)
+}
+
+@font-face {
+    font-family: 'Redressed';
+    src: url(../fonts/Redressed-Regular.ttf)
+}
 
 * {
     margin: 0;
@@ -29,10 +40,6 @@ body {
     background-size: cover;
     font-family: "Redressed", 'Ebrima', sans-serif;
     letter-spacing: .5px;
-    //    background:
-    //	linear-gradient(215deg, rgba(202, 172, 242, 0.7), rgba(202, 172, 242, 0) 30%), 
-    //	linear-gradient(235deg, rgba(251, 77, 111, 0.5), rgba(251, 77, 111, 0) 160%), 
-    //	linear-gradient(45deg, rgba(251, 254, 215, 0.7), rgba(251, 254, 215, 0) 100.71%);
 }
 
 .center {
@@ -54,12 +61,6 @@ h4 {
     margin-bottom: 10px;
 }
 
-/*FONT FAMILY*/
-
-@font-face {
-    font-family: 'Ebrima';
-    src: url(../fonts/ebrima.ttf)
-}
 
 
 /*****NAVBAR*****/
@@ -67,6 +68,7 @@ h4 {
 nav {
     section.navigation {
         position: fixed;
+        z-index: 10;
         width: 60px;
         height: 100%;
         background: rgba(92, 169, 176, 0.7);
